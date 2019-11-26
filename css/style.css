@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 
   *{
@@ -22,7 +22,7 @@ body {
   min-width: 500px;
 
   font-size:15pt;
-  font-family: 'Righteous', cursive;
+  font-family: 'Fredoka One', cursive;
   color: #006b91;
 }
 
@@ -74,8 +74,8 @@ h1 {
 .navbar {
   font-size: 16pt;
   overflow: hidden; /* Hide overflow */
-  background-color: #78ff8e; /* Dark background color */
-  padding: 0px 0px 0px 255px; /* Shift the navbar to the right */
+  background-color: #80f2ff; /* Dark background color */
+  padding: 0px 0px 0px 400px; /* Shift the navbar to the right */
 }
 
 /* navimage */
@@ -90,7 +90,7 @@ h1 {
   margin;
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: #ff006e; /* White text color */
+  color: #ffabab; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 20px 14px; /* Add some padding */
   text-decoration: none; /* Remove underline */
@@ -103,8 +103,8 @@ h1 {
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #ff006e; /* Grey background color */
-  color: #78ff8e; /* Black text color */
+  background-color: #ffabab; /* Grey background color */
+  color: #80f2ff; /* Black text color */
 }
 
 
@@ -122,9 +122,9 @@ h1 {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  font-family: 'Days One', sans-serif;
+  font-family: 'Concert One', cursive;;
   flex: 100%; /* Set the width of the sidebar */
-  background-color: #ff8c8c; /* Grey background color */
+  background-color: #fffcd1; /* Grey background color */
   padding: 100px; /* Some padding */
 }
 
