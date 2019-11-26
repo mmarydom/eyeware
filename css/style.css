@@ -16,7 +16,7 @@ body {
   height: 100vh;
   padding:0;
   margin: auto;
-  margin-top: 0;
+  margin-top: -250px; 
   margin-bottom: 0;
   max-width: 1050px;
   min-width: 500px;
