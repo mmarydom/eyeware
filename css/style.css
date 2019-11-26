@@ -16,7 +16,7 @@ body {
   height: 100vh;
   padding:0;
   margin: auto;
-  margin-top: -250px; 
+  margin-top: 100px;
   margin-bottom: 0;
   max-width: 1050px;
   min-width: 500px;
@@ -81,9 +81,11 @@ h1 {
 /* navimage */
 #navimage {
   position: relative;
-  top: 132px;
-  height: 350px;
+  top: 1500px;
+  height: 35px;
+  padding: 0px 0px 0px 200px;
 }
+
 
 /* Style the navigation bar links */
 .navbar a {
