@@ -81,9 +81,9 @@ h1 {
 /* navimage */
 #navimage {
   position: relative;
-  top: -2px;
-  height: 35px;
-  padding: 0px 0px 0px 100px;
+  top: -20px;
+  height: 37px;
+  padding: 0px 0px 0px 10px;
 }
 
 
