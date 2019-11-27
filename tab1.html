@@ -8,6 +8,26 @@
   <head>
   </head>
     <body>
-      <p>are you sure you want to leave?</p>
+      <p><center>are you sure you want to leave?</center></p>
+        <br>
+        <center><a href="index.html" class="buttons">no</a></center>
     </body>
+    <a href="tab3.html">
+      <img id="navimage"  src="images/bluebear.png" onmouseover="onHover();" onmouseout="offHover();"></img>
+    </a>
+
+    <script>
+      function onHover()
+      {
+          var image = document.getElementById("navimage");
+          image.src="images/pinkbear.png";
+      }
+
+      function offHover()
+      {
+          var image = document.getElementById("navimage");
+          image.src="images/bluebear.png";
+      }
+    </script>
+
 </html>
