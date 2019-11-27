@@ -6,6 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css">
   <head>
+<style>
+    #navimage2 {
+      position: relative;
+      top: -4px;
+      height: 37px;
+      padding: 0px 0px 0px 10px;
+    }
+    </style>
   </head>
     <body>
       <p><center>are you sure you want to leave?</center></p>
@@ -13,19 +21,19 @@
         <center><a href="index.html" class="buttons">no</a></center>
     </body>
     <a href="tab3.html">
-      <img id="navimage" onmouseover="onHover();" onmouseout="offHover();"></img>
+      <img id="navimage2" onmouseover="onHover();" onmouseout="offHover();"></img>
     </a>
 
     <script>
       function onHover()
       {
-          var image = document.getElementById("navimage");
+          var image = document.getElementById("navimage2");
           image.src="images/pinkbear.png";
       }
 
       function offHover()
       {
-          var image = document.getElementById("navimage");
+          var image = document.getElementById("navimage2");
       }
     </script>
 
