@@ -52,9 +52,9 @@ body {
 
 #navimage {
   position: relative;
-  top: 684px;
-  height: 38px;
-  padding: 0px 0px 0px 109px;
+  top: 639px;
+  height: 40px;
+  padding: 0px 0px 0px 17px;
 }
 
 #NavBar img {
@@ -107,13 +107,13 @@ li a:hover {
 #content {
 	background-color: #ffabab;
 	margin: 0 auto;
-	margin-top: 402px;
+	margin-top: 400px;
 	width: 50%;
 	padding: 210px;
   border-bottom: none;
   border-top: none;
 	color: white;
-	font-family: 'Concert One', cursive;;
+	font-family: 'Concert One', cursive;
   font-size: 20px;
 }
 
@@ -126,7 +126,7 @@ li a:hover {
     border-bottom: none;
     border-top: none;
 	color: white;
-	font-family: 'Concert One', cursive;;
+	font-family: 'Concert One', cursive;
     font-size: 20px;
 }
 
