@@ -16,7 +16,7 @@ body {
 }
 
 #NavBar {
-	font-size: 16pt;
+	font-size: 25pt;
 	margin: 0 auto;
 	margin-top: 0px;
 	padding: 0;
@@ -27,9 +27,32 @@ body {
 
 }
 
+/* Style the navigation bar links */
+#Navbar a {
+  margin;
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: #ffabab; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px 14px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+#Navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+#Navbar a:hover {
+  background-color: #ffabab; /* Grey background color */
+  color: #80f2ff; /* Black text color */
+}
+
+
 #navimage {
   position: relative;
-  top: 722px;
+  top: 684px;
   height: 38px;
   padding: 0px 0px 0px 109px;
 }
@@ -40,7 +63,8 @@ body {
 }
 
 ul {
-	text-align: center;
+
+	text-align: right;
 	background-color: #80f2ff;
 	color: white;
 	height: 70px;
@@ -77,17 +101,15 @@ li a:hover {
     left: 0px;
     top: 50px;
     z-index: -1;
+	border-bottom: 10px solid #fdffa1 ;
 }
 
 #content {
 	background-color: #ffabab;
 	margin: 0 auto;
-	margin-top: 332px;
+	margin-top: 402px;
 	width: 50%;
 	padding: 210px;
-	border-style: solid;
-    border-width: 10px;
-    border-color: #fdffa1;
     border-bottom: none;
     border-top: none;
     font-family: 'Fredoka One', cursive;
