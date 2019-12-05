@@ -30,13 +30,52 @@
   padding:0px;
   }
 
+  div.tooltip {
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px 0px 900px;
+    position: absolute;
+    top: 250px;
+  }
+
+  div.tooltip .tooltiptext {
+    font-family: 'Quantico', sans-serif;
+    visibility: hidden;
+    width: 500px;
+    background-color: #00FFFF;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 350px;
+  }
+
+  div.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #00FFFF;
+  }
+  div.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
   a:link{color:#FFFFFF;}
   a:visited{color:#FFFFFF;}
   a:hover{color:#FFFFFF;}
   a:active{color:#FFFFFF;}
   </style>
-  </head>
   <body>
-    <div class="tooltip"><img src="images/cyan note.png" width="400" height="400"></img></a><span class="tooltiptext"> Thank you for your participation and I hope you have fun!! Here are the rules: there are four hidden anamolies plus one bonus one! Some may be harder to find than others. Good luck friend^^ </span></div>
-  </body>
+    <div class="tooltip"><img src="images/cyan note.png" width="300" height="300"></img></a><span class="tooltiptext">  Are you aware you are being watched right now? Cover your webcams cause there might be someone lurking behind that camera. Also watch what you do online, your information is recorded! 
+</span></div>
+</body>
+  </head>
 </html>

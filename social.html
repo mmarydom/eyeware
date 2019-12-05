@@ -30,13 +30,53 @@
   padding:0px;
   }
 
+  div.tooltip {
+    position: relative;
+    display: inline-block;
+    padding: 0px 0px 0px 900px;
+    position: absolute;
+    top: 250px;
+  }
+
+  div.tooltip .tooltiptext {
+    font-family: 'Quantico', sans-serif;
+    visibility: hidden;
+    width: 500px;
+    background-color: #00FFFF;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 350px;
+  }
+
+  div.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #00FFFF;
+  }
+  div.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
   a:link{color:#FFFFFF;}
   a:visited{color:#FFFFFF;}
   a:hover{color:#FFFFFF;}
   a:active{color:#FFFFFF;}
   </style>
   <body>
-    <div class="tooltip"><img src="images/cyan note.png" width="400" height="400"></img></a><span class="tooltiptext"> Thank you for your participation and I hope you have fun!! Here are the rules: there are four hidden anamolies plus one bonus one! Some may be harder to find than others. Good luck friend^^ </span></div>
-  </body>
+    <div class="tooltip"><img src="images/cyan note.png" width="300" height="300"></img></a><span class="tooltiptext"> Do you ever feel worthless or depressed, maybe even pressured by your followers when you're surfing online? Social Media may be a great way to stay connected with friends or family, but its important to be aware of the negative effects these sites can cause to your mental health. Take long breaks every now and then  to clear your mind and forget about your status online.
+
+</span></div>
+</body>
   </head>
 </html>

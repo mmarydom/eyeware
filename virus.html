@@ -25,139 +25,65 @@
   padding:0;
 }
 
-#animation {
-  width:100vw;
-  height:100vh;
-  border: none;
-  position: fixed;
-  z-index: -999;
-}
-
-div.links{
-  float: left;
-  font-size: 25pt;
-  list-style-type: none;
-  margin-right: 0 auto;
-  text-align: center;
-  position: absolute;
-  left:330px;
-  top:290px;
-}
-
-div.links a {
-    color: 043077;
-    background: #ff006e;
-    padding: 0px;
-}
-
-h1 {
-   font-size:20pt;
- }
- h2 {
-   font-size:25pt;
- }
- h3 {
-   font-size:30pt;
-}
-
-/* Style the top navigation bar */
-div.navbar {
-  font-size: 16pt;
-  overflow: hidden; /* Hide overflow */
-  background-color: #80f2ff; /* Dark background color */
-  padding: 0px 0px 0px 400px; /* Shift the navbar to the right */
-}
-
-/* navimage */
-#navimage {
-  position: relative;
-  top: -20px;
-  height: 37px;
-  padding: 0px 0px 0px 10px;
-}
-
-
-/* Style the navigation bar links */
-div.navbar a {
-  margin;
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: #ffabab; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px 14px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
-}
-
-/* Right-aligned link */
-div.navbar a.right {
-  float: right; /* Float a link to the right */
-}
-
-/* Change color on hover/mouse-over */
-div.navbar a:hover {
-  background-color: #ffabab; /* Grey background color */
-  color: #80f2ff; /* Black text color */
-}
-
-
-/* Ensure proper sizing */
-* {
-  box-sizing: border-box;
-}
-
-/* Column container */
-div.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-div.side {
-  font-family: 'Concert One', cursive;;
-  flex: 100%; /* Set the width of the sidebar */
-  background-color: #fffcd1; /* Grey background color */
-  padding: 100px; /* Some padding */
-}
-
-/* do not mention in html!! just an image */
 div.main {
-  background-image:url("https://raw.githubusercontent.com/mmarydom/cyanide/master/images/bottom%20drip.png");
-background-position:top center;
 width:100%;
-height:275px;
-z-index:1;
-margin-bottom:-275px;
+z-index:100;
+position:absolute;
+padding-bottom:300px;
 }
-  div.main {
-  width:100%;
-  z-index:100;
-  position:absolute;
-  padding-bottom:300px;
-  }
-  div.inside {
-  background-color:#343537;
-  margin:0px;
-  padding:0px;
-  }
-  a:link{color:#FFFFFF;}
-  a:visited{color:#FFFFFF;}
-  a:hover{color:#FFFFFF;}
-  a:active{color:#FFFFFF;}
-  </style>
-  <body>
 
-<div class="row">
-      <div class="side">
-        <div class="gallery">
-          </brk>
-            </div>
-                 </br>
-                  <center><h2> Danger 1: Online predators and Human traffickers </h2></center>
-                  </br>
-                  <p>Another final paragraph</p>
-                  </br>
-              </div>
+div.inside {
+background-color:#343537;
+margin:0px;
+padding:0px;
+}
+
+div.tooltip {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px 0px 900px;
+  position: absolute;
+  top: 250px;
+}
+
+div.tooltip .tooltiptext {
+  font-family: 'Quantico', sans-serif;
+  visibility: hidden;
+  width: 500px;
+  background-color: #00FFFF;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 250px;
+  left: 350px;
+}
+
+div.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -20px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: transparent transparent transparent #00FFFF;
+}
+div.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+a:link{color:#FFFFFF;}
+a:visited{color:#FFFFFF;}
+a:hover{color:#FFFFFF;}
+a:active{color:#FFFFFF;}
+</style>
+<body>
+  <div class="tooltip"><img src="images/cyan note.png" width="300" height="300"></img></a><span class="tooltiptext"> Uh Oh! Looks like you encountered a possible virus threat! Viruses are.. that can potentially ruin your device. Remember to avoid. Downloading virus protection and adblock can help prevent these problems from occuring!
+</span></div>
 </body>
-  </head>
+</head>
 </html>
