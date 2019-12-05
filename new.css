@@ -205,18 +205,18 @@ li a:hover {
 .tooltip {
   position: relative;
   display: inline-block;
-  padding: 0px 0px 0px 500px;
+  padding: 0px 0px 0px 400px;
 }
 
 .tooltip .tooltiptext {
   font-family: 'Quantico', sans-serif;
   visibility: hidden;
-  width: 500px;
+  width: 410px;
   background-color: #00FFFF;
   color: #ff006e;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 10px 0;
   position: absolute;
   z-index: 1;
   top: 60px;
